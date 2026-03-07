@@ -102,6 +102,22 @@ body {
   animation: fadeIn 0.2s ease-out;
 }
 
+/* Slide up animation for install prompt */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.4s ease-out;
+}
+
 /* Word wrap utility for long messages */
 .overflow-wrap-anywhere {
   overflow-wrap: anywhere;
