@@ -4,6 +4,8 @@
 
 This application uses **Socket.IO for real-time messaging**, which requires a persistent server connection. 
 
+**Note:** This app uses Next.js 16 with the new `proxy.js` convention (previously `middleware.js`).
+
 ### Platforms Comparison:
 
 | Platform | Socket.IO Support | Difficulty | Cost |
